@@ -5,6 +5,7 @@ pipeline {
         maven 'mavne3.6'
         jdk 'jdk17'
     }
+    stage {
 
         stage('Compile') {
             steps {
